@@ -19,3 +19,8 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# Rescue and Cache
+*-cache.lib
+*-rescue.lib
+**/*.rs.bk
