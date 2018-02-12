@@ -1,10 +1,6 @@
-update=Thu 08 Feb 2018 08:55:59 PM EST
+update=Sat 10 Feb 2018 05:00:28 PM EST
 version=1
-last_client=eeschema
-[general]
-version=1
-RootSch=
-BoardNm=
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -64,3 +60,5 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=library/prusto_watch
+[general]
+version=1
