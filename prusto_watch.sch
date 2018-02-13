@@ -1929,12 +1929,10 @@ Wire Notes Line
 	8850 2500 700  2500
 Wire Notes Line
 	700  2500 700  2450
-Text Label 5550 8750 0    60   ~ 0
+Text Label 5550 6550 0    60   ~ 0
 IMU_INT_1
-Text Label 5550 8650 0    60   ~ 0
+Text Label 5550 6450 0    60   ~ 0
 IMU_INT_2
-Wire Wire Line
-	5350 8650 5550 8650
 Wire Wire Line
 	5550 8750 5350 8750
 Text Label 11900 2250 2    60   ~ 0
@@ -2122,7 +2120,7 @@ Wire Wire Line
 	14650 4550 14850 4550
 Text Label 14850 4550 0    60   ~ 0
 EXTCOMIN
-Text Label 5550 7950 0    60   ~ 0
+Text Label 5550 8750 0    60   ~ 0
 EXTCOMIN
 Wire Wire Line
 	5550 7950 5350 7950
