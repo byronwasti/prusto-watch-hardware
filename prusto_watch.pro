@@ -1,4 +1,4 @@
-update=Sat 10 Feb 2018 05:00:28 PM EST
+update=Tue 20 Feb 2018 02:26:56 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName32=valves
 LibName33=library/prusto_watch
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=wrong_branch
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
