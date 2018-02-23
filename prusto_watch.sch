@@ -1148,7 +1148,7 @@ U 1 1 59FF74F2
 P 10650 6650
 F 0 "J3" H 10650 6750 50  0000 C CNN
 F 1 "Vibration Motor" H 11050 6600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch1.00mm" H 10650 6650 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 10650 6650 50  0001 C CNN
 F 3 "" H 10650 6650 50  0001 C CNN
 	1    10650 6650
 	1    0    0    -1  
@@ -1850,9 +1850,9 @@ Wire Notes Line
 	8850 2500 700  2500
 Wire Notes Line
 	700  2500 700  2450
-Text Label 5350 8750 0    60   ~ 0
+Text Label 5350 7750 0    60   ~ 0
 IMU_INT_1
-Text Label 5350 8650 0    60   ~ 0
+Text Label 5350 7650 0    60   ~ 0
 IMU_INT_2
 Text Label 12750 2250 2    60   ~ 0
 IMU_INT_1
@@ -1881,7 +1881,7 @@ Wire Wire Line
 	14850 4650 14650 4650
 Text Label 5350 9350 0    60   ~ 0
 DISP_SCS
-Text Label 5350 9250 0    60   ~ 0
+Text Label 5350 7850 0    60   ~ 0
 IMU_CS
 $Comp
 L STM32F303RCT6-48 U1
@@ -1897,7 +1897,7 @@ F 4 "497-15198-ND" H 2950 6450 60  0001 C CNN "Digikey"
 $EndComp
 Wire Wire Line
 	7650 6750 7650 7200
-Text Label 5350 7850 0    60   ~ 0
+Text Label 5350 9650 0    60   ~ 0
 LED_1
 Text Label 7650 7600 3    60   ~ 0
 LED_3
@@ -1914,7 +1914,7 @@ Wire Wire Line
 	11150 9800 10450 9800
 Text Label 14100 7500 2    60   ~ 0
 BLE_nRST
-Text Label 5350 6850 0    60   ~ 0
+Text Label 5350 8550 0    60   ~ 0
 BLE_nRST
 Wire Wire Line
 	12750 2650 12950 2650
@@ -1932,7 +1932,7 @@ Text Label 15700 7000 0    60   ~ 0
 BLE_CONF
 Wire Wire Line
 	15700 7000 15600 7000
-Text Label 5350 6550 0    60   ~ 0
+Text Label 5350 8650 0    60   ~ 0
 BLE_CONF
 $Comp
 L R R12
@@ -1968,7 +1968,7 @@ Text Label 5350 6450 0    60   ~ 0
 EXTCOMIN
 Text Label 15650 4450 0    60   ~ 0
 DISP_EN
-Text Label 5350 9650 0    60   ~ 0
+Text Label 5350 9250 0    60   ~ 0
 DISP_EN
 $Comp
 L R R13
@@ -2242,9 +2242,9 @@ F 3 "" H 7050 6250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7050 6250 7050 6450
-Text Label 5350 7750 0    60   ~ 0
+Text Label 5350 6550 0    60   ~ 0
 LED_2
-Text Label 5350 7650 0    60   ~ 0
+Text Label 5350 8750 0    60   ~ 0
 LED_3
 Text Notes 5850 6450 0    60   ~ 0
 =TIM4_CH4\n
@@ -2257,113 +2257,100 @@ TSC_G5_IO2
 NoConn ~ 5350 8250
 NoConn ~ 5350 9150
 NoConn ~ 5350 8950
-Wire Notes Line
-	11700 3700 11700 600 
-Wire Notes Line
-	11700 600  8850 600 
 Text Notes 9000 900  0    60   ~ 0
 Touch\n\n
 $Comp
 L Conn_01x06 J6
 U 1 1 5A8DC64C
-P 10500 1350
-F 0 "J6" H 10500 1650 50  0000 C CNN
-F 1 "Conn_01x06" H 10500 950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 10500 1350 50  0001 C CNN
-F 3 "" H 10500 1350 50  0001 C CNN
-	1    10500 1350
+P 10000 1650
+F 0 "J6" H 10000 1950 50  0000 C CNN
+F 1 "Conn_01x06" H 10000 1250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 10000 1650 50  0001 C CNN
+F 3 "" H 10000 1650 50  0001 C CNN
+	1    10000 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR066
 U 1 1 5A8DD0BE
-P 10150 1000
-F 0 "#PWR066" H 10150 850 50  0001 C CNN
-F 1 "+3.3V" H 10150 1140 50  0000 C CNN
-F 2 "" H 10150 1000 50  0001 C CNN
-F 3 "" H 10150 1000 50  0001 C CNN
-	1    10150 1000
+P 9650 1300
+F 0 "#PWR066" H 9650 1150 50  0001 C CNN
+F 1 "+3.3V" H 9650 1440 50  0000 C CNN
+F 2 "" H 9650 1300 50  0001 C CNN
+F 3 "" H 9650 1300 50  0001 C CNN
+	1    9650 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR067
 U 1 1 5A8DD1DE
-P 10150 1750
-F 0 "#PWR067" H 10150 1500 50  0001 C CNN
-F 1 "GND" H 10150 1600 50  0000 C CNN
-F 2 "" H 10150 1750 50  0001 C CNN
-F 3 "" H 10150 1750 50  0001 C CNN
-	1    10150 1750
+P 9650 2050
+F 0 "#PWR067" H 9650 1800 50  0001 C CNN
+F 1 "GND" H 9650 1900 50  0000 C CNN
+F 2 "" H 9650 2050 50  0001 C CNN
+F 3 "" H 9650 2050 50  0001 C CNN
+	1    9650 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10150 1000 10150 1150
+	9650 1300 9650 1450
 Wire Wire Line
-	10150 1150 10300 1150
+	9650 1450 9800 1450
 Wire Wire Line
-	10300 1650 10150 1650
+	9800 1950 9650 1950
 Wire Wire Line
-	10150 1650 10150 1750
-Text Label 10300 1550 2    60   ~ 0
+	9650 1950 9650 2050
+Text Label 9800 1850 2    60   ~ 0
 TSC_G5_IO4
-Text Label 10300 1450 2    60   ~ 0
+Text Label 9800 1750 2    60   ~ 0
 TSC_G5_IO3
-Text Label 10300 1350 2    60   ~ 0
+Text Label 9800 1650 2    60   ~ 0
 TSC_G5_IO2
-NoConn ~ 10300 1250
-Text Label 15600 6800 0    60   ~ 0
-BLE_P3_6
-Text Label 15600 6900 0    60   ~ 0
-BLE_P2_7
-Text Label 15600 7100 0    60   ~ 0
-BLE_P1_7
-Text Label 15600 7200 0    60   ~ 0
-BLE_P1_6
-Text Label 15600 7300 0    60   ~ 0
-BLE_P1_3
-Text Label 15600 7400 0    60   ~ 0
-BLE_P1_2
-Text Label 15600 7600 0    60   ~ 0
-BLE_P0_0
-Text Label 15750 8100 2    60   ~ 0
-BLE_P0_0
-Text Label 15750 8200 2    60   ~ 0
-BLE_P1_2
-Text Label 15750 8300 2    60   ~ 0
-BLE_P1_3
-Text Label 15750 8400 2    60   ~ 0
-BLE_P1_6
-Text Label 15750 8500 2    60   ~ 0
-BLE_P1_7
-Text Label 15750 8600 2    60   ~ 0
-BLE_P2_7
-Text Label 15750 8700 2    60   ~ 0
-BLE_P3_6
+NoConn ~ 9800 1550
+NoConn ~ 5350 6850
 $Comp
-L Conn_01x08 J7
-U 1 1 5A8E62B6
-P 15950 8400
-F 0 "J7" H 15950 8800 50  0000 C CNN
-F 1 "Conn_01x08" H 15950 7900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 15950 8400 50  0001 C CNN
-F 3 "" H 15950 8400 50  0001 C CNN
-	1    15950 8400
+L Conn_01x02 J8
+U 1 1 5A8FC0B8
+P 4100 1150
+F 0 "J8" H 4100 1250 50  0000 C CNN
+F 1 "Conn_01x02" H 4100 950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4100 1150 50  0001 C CNN
+F 3 "" H 4100 1150 50  0001 C CNN
+	1    4100 1150
 	1    0    0    -1  
 $EndComp
+Text Label 3900 1150 2    60   ~ 0
+D_N
+Text Label 3900 1250 2    60   ~ 0
+D_P
+Wire Notes Line
+	10300 3700 10300 600 
+Wire Notes Line
+	10300 600  8850 600 
+Text Label 11200 1750 0    60   ~ 0
+IMU_SDO
+Text Label 11200 1850 0    60   ~ 0
+IMU_CS
+Text Label 11200 1950 0    60   ~ 0
+IMU_SCL
+Text Label 11200 2050 0    60   ~ 0
+IMU_SDI
 $Comp
-L GND #PWR068
-U 1 1 5A8E6D98
-P 15650 8900
-F 0 "#PWR068" H 15650 8650 50  0001 C CNN
-F 1 "GND" H 15650 8750 50  0000 C CNN
-F 2 "" H 15650 8900 50  0001 C CNN
-F 3 "" H 15650 8900 50  0001 C CNN
-	1    15650 8900
-	1    0    0    -1  
+L Conn_01x04 J9
+U 1 1 5A8FE6A9
+P 11000 1950
+F 0 "J9" H 11000 2150 50  0000 C CNN
+F 1 "Conn_01x04" H 11000 1650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 11000 1950 50  0001 C CNN
+F 3 "" H 11000 1950 50  0001 C CNN
+	1    11000 1950
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	15650 8900 15650 8800
-Wire Wire Line
-	15650 8800 15750 8800
-NoConn ~ 5350 8550
+NoConn ~ 15600 7600
+NoConn ~ 15600 7400
+NoConn ~ 15600 7300
+NoConn ~ 15600 7200
+NoConn ~ 15600 7100
+NoConn ~ 15600 6900
+NoConn ~ 15600 6800
 $EndSCHEMATC
