@@ -1,7 +1,7 @@
 # Prusto Watch BOM
 
 Manufacturer Part Number | Description | Digikey | Count | Price
-:---|:---|:---|---:
+:---|:---|:---|---: | ---:
 RJD3032HPPV30M | Battery | 1572-1623-ND | 1 | 16.71 
 Molex 0532610271 | Battery Connector | WM7620CT-ND | 1 | 0.93
 MCP73831T-2ACI/OT | Battery Charger | MCP73831T-2ACI/OT | 1 | 0.59
