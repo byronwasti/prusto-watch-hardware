@@ -6,6 +6,15 @@ K bluetooth ble module
 F http://ww1.microchip.com/downloads/en/DeviceDoc/60001372F.pdf
 $ENDCMP
 #
+$CMP LIS3DETR
+D Accelerometer
+K Accelerometer
+$ENDCMP
+#
+$CMP LTC4063
+D PMIC li-ion USB charger and 3.3V regulator
+$ENDCMP
+#
 $CMP RT9818A-18GV
 D 1.8V Micro-Power Voltage Detector
 K voltage detector brown out
