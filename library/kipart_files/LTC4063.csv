@@ -1,0 +1,15 @@
+LTC4063
+
+Pin,Type,Name,Side
+1,bidirectional,BAT,right
+2,output,OUT,right
+3,input,FB,right
+4,input,nLDOEN,left
+5,input,nCHGEN,left
+6,output,nCHRG,right
+7,input,TIMER,right
+8,bidirectional,IDET,right
+9,input,PROG,right
+10,pwr,Vcc,top
+11,gnd,GND,bottom
+
