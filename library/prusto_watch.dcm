@@ -15,6 +15,11 @@ $CMP LTC4063
 D PMIC li-ion USB charger and 3.3V regulator
 $ENDCMP
 #
+$CMP RN4871
+D Castellated BLE Module
+K bluetooth ble module
+$ENDCMP
+#
 $CMP RT9818A-18GV
 D 1.8V Micro-Power Voltage Detector
 K voltage detector brown out
