@@ -3,6 +3,12 @@ Hardware for the Prusto Watch
 
 # Update Log
 
+## 0.3.0
+- Chip now has USB functionality
+- Moved to an accelerometer instead of an IMU
+- New PMIC chip
+- Smaller layout with mounting holes
+
 ## 0.2.0
 - Chip selected has no USB functionality
 - LEDs work
