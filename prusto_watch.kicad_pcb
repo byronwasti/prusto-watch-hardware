@@ -3,7 +3,7 @@
   (general
     (links 169)
     (no_connects 0)
-    (area 127.356999 80.719059 164.868201 118.230261)
+    (area 119.38 72.289635 175.206135 124.460001)
     (thickness 1.6)
     (drawings 80)
     (tracks 795)
@@ -3186,7 +3186,7 @@
   (gr_text "+3V GND SCK\nCS  SDO  SDI" (at 140.716 85.344) (layer B.SilkS) (tstamp 5ADE0261)
     (effects (font (size 0.762 0.762) (thickness 0.1905)) (justify mirror))
   )
-  (gr_text "GND SCS SDI\n5en +5V SCK" (at 154.432 87.122) (layer B.SilkS) (tstamp 5ADE0216)
+  (gr_text "GND SCS SDI\nEXT +5V SCK" (at 154.432 87.122) (layer B.SilkS) (tstamp 5ADE0216)
     (effects (font (size 0.762 0.762) (thickness 0.1905)) (justify mirror))
   )
   (gr_text "XX TX RX\nRS 3V GN" (at 156.464 108.712 45) (layer B.SilkS) (tstamp 5ADE01AE)
