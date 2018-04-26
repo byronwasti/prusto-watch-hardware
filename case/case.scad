@@ -39,6 +39,14 @@ module bottom_frame_cutout(r, h, wt=1) {
     }
 }
 
+module bottom_usb_cutout(w=4, h=3) {
+    difference() {
+        cube([10, 7, 3], center=true);
+        translate([0, -6, 3]) rotate([45, 0, 0]) cube([11, 10, 8], center=true);
+        translate([0, 6, 3]) rotate([-45, 0, 0]) cube([11, 10, 8], center=true);
+    }
+}
+
 module bottom_clips(r, length, dist) {
     for(i = [45, -45, 180]) {
         rotate([0, 0, i])
@@ -90,6 +98,11 @@ module bottom(r, h, wt=1) {
            bottom_clips(1, 10, cos(22.5) * (r-1));
 
         translate([0, 0, 1]) bottom_frame_cutout(r, h, wt);
+        
+        translate([-20, -3, 5]) bottom_usb_cutout();
+
+        // Jtag cutout
+        translate([-15, -15, 3]) rotate([0, 0, 45]) cube([6, 6, 3], center=true);
     }
 }
 
@@ -148,6 +161,7 @@ module half_cut() {
 }
 
 module side_by_side() {
+    $fn=40;
     union() {
         bottom(22, 5);
         translate([0, 50, 2.5]) rotate([0, 180, 0]) top(22, 3);
@@ -166,10 +180,12 @@ thickness = 1;
 
 //translate([0, 0, 5]) battery();
 //translate([0, 0, 10]) pcb();
-translate([0, 0, 0]) display();
+translate([0, 0, 0]) rotate([0, 0, 180]) display();
 translate([0, 0, 15]) top(22, 3);
 translate([0, 0, -15])bottom(22, 5);
 
-!half_cut();
+//!half_cut();
+
+!side_by_side();
 
 
