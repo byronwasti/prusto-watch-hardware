@@ -19,4 +19,4 @@ LSM6DSLTR | IMU (Mag/Gyro/Acc) | 497-16705-1-ND | 1 | 4.09
 RN4871-V | BLE Castellated Module | RN4871-V/RM118-ND | 1 | 7.45
 RT9818A-18GV | Brown-Out Detector | RT9818A-18GV-ND | 1 | OUT
 Adafruit Industries LLC 1201 | Vibration Motor | 1528-1177-ND | 1 | 1.95
-
+C&K KXT 331 LHS | Tactile Switch | CKN10779CT-ND | 3 | 0.25
